@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9fm-hR-AfK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="communication_discussion_workshop-512" translatesAutoresizingMaskIntoConstraints="NO" id="D3X-X4-HML">
+                                <rect key="frame" x="67" y="277" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yOe-b6-bdr" firstAttribute="trailing" secondItem="D3X-X4-HML" secondAttribute="trailing" constant="68" id="BXa-0k-TvZ"/>
+                            <constraint firstItem="D3X-X4-HML" firstAttribute="top" secondItem="yOe-b6-bdr" secondAttribute="top" constant="257" id="NIu-Pe-bpN"/>
+                            <constraint firstItem="yOe-b6-bdr" firstAttribute="bottom" secondItem="D3X-X4-HML" secondAttribute="bottom" constant="262" id="a52-yN-0BR"/>
+                            <constraint firstItem="D3X-X4-HML" firstAttribute="leading" secondItem="yOe-b6-bdr" secondAttribute="leading" constant="67" id="rqb-x4-tpy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yOe-b6-bdr"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="communication_discussion_workshop-512" width="512" height="512"/>
+    </resources>
+</document>
