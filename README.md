@@ -20,13 +20,13 @@ Original Plan of Features:
   -  Notifications for messages
   
   
-Final Product Features
+Final Product Features:
   - Google Sign In / Sign Out / 
   - Firebase Authentication
   - Multiple Users
   - Ability to create Chat Rooms for Organization
   
-Future Releases Features
+Future Releases Features:
   -Notifications 
   -Passwords for Rooms
   
