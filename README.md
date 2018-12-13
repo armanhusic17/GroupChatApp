@@ -32,14 +32,19 @@ Future Releases Features
   
   
   Time To Implement Features:
-      - Adding Firebase to the application was the first hurdle, 
+     
+     - Adding Firebase to the application was the first hurdle, 
         This implementation did not take very long I would say 3-4 hours. 
-      - Creating a single chat view and having it update messages live also took about 2-3 hours. 
-      - Google Sign In took me about about a couple days to perfect, because I ran into issues that 
-        allowed the user to bypass the log in and still access the application. Then followed by an issue
-        where the user was only prompted to log in once and the app never renewed the access tokens.
-      - Adding multiple users to the application was not very difficult with Firebase/Google Auth.
-      - Ability to create chat rooms
+     
+     - Creating a single chat view and having it update messages live also took about 2-3 hours. 
+      
+     - Google Sign In took me about about a couple days to perfect, because I ran into issues that 
+       allowed the user to bypass the log in and still access the application. Then followed by an issue
+       where the user was only prompted to log in once and the app never renewed the access tokens.
+     
+     - Adding multiple users to the application was not very difficult with Firebase/Google Auth.
+     
+     - Ability to create chat rooms
         This was the longest feature to implement because it caused issues in the Main Storyboard of my application
         to the extent of not being able to run the application anymore, therefore I had to restart my app when 
         trying to implement this feature. The ammount of time this took was 4-5 days, working about a solid hour and a half 
