@@ -27,8 +27,8 @@ Final Product Features:
   - Ability to create Chat Rooms for Organization
   
 Future Releases Features:
-  -Notifications 
-  -Passwords for Rooms
+  - Notifications 
+  - Passwords for Rooms
   
   
   Time To Implement Features:
